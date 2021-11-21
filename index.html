@@ -3,42 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!-- css external file -->
+  <!-- style Css -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- GOOGle FONTs -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | 3-column preview card component</title>
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!-- googlefont -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section id=grid-3-column class="grid-column">
-    <div class="first-column">
-      <img src="images\icon-sedans.svg" alt="sedans-icon">
-      <h1>Sedans</h1>
-      <p >Choose a sedan for its <br> affordability and excellent <br> fuel economy. Ideal for <br> cruising in the city or on  <br>  your next road trip.</p>
-      <a class="firts-btn-CTA" href="#">Learn More</a>
+  <section id=top-container>
+    <h1>Join our community</h1>
+    <p class="sub-title">30-day, hassle-free money back guarantee</p>
+    <p class="top-description">Gain access to our full library of tutorials along with expert code reviews. <br>
+    Perfect for any developers who are serious about honing their skills.</p>
+  </section>
+
+
+  <section id=mid-container-grid>
+    <div class="left-container">
+      <h2 class="mid-title">Monthly Subscription</h2>
+      <p class="price">&dollar;29 <span class="price-parag">per month</span></p>
+      <p class="mid-description">Full access for less than &dollar;1 a day</p>
+      <a class="btn"href="#">Sign Up</a>
     </div>
-    <div class="second-column">
-      <img src="images\icon-suvs.svg" alt="svu-icon">
-      <h1>SUVs</h1>
-      <p>Take an SUV for its spacious <br> interior, power, and  versatility.<br> Perfect for your <br> next family vacation
-      and <br> off-road adventures.</p>
-      <a class="second-btn-CTA" href="#">Learn More</a>
-    </div>
-    <div class="third-column">
-      <img src="images\icon-luxury.svg" alt="luxury-icon">
-      <h1>Luxury</h1>
-      <p>Cruise in the best car brands <br> without the bloated prices. <br> Enjoy the enhanced comfort <br> of a luxuryrental and arrive <br> in style.</p>
-      <a class="third-btn-CTA" href="#">Learn More</a>
+
+    <div class="right-container">
+      <h2 class="mid-title">Why Us</h2>
+      <p class="mid-right-description">
+         Tutorials by industry experts <br>
+         Peer &amp; expert code review <br>
+         Coding exercises <br>
+         Access to our GitHub repos <br>
+         Community forum <br>
+         Flashcard decks <br>
+         New videos every week</p>
     </div>
   </section>
-  <section id= footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Gerald XD</a>.
-    </div>
+
+  <section id=bottom-container>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">GERALD XD</a>.
+      </p>
+    </footer>
   </section>
 
 </body>
